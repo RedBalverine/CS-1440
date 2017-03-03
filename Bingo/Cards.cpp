@@ -5,6 +5,8 @@
 #include "Cards.h"
 #include <iostream>
 #include <chrono>
+#include <vector>
+#include <algorithm>
 #include <ostream>
 #include <iomanip>
 
@@ -28,6 +30,19 @@ void Cards::sizeOfCard(const int userInput)
 
 void Cards::numbersOnTheCards(const int number)
 {
+    std::vector<int> possible;
+    int numberCount = 0;
+    int count = 0;
+
+    for (int i = 0; i < number; i++)
+    {
+        numberCount++;
+        possible.push_back(numberCount);
+    }
+
+    std::random_shuffle(possible.begin(), possible.end());
+
+
     maxNumber = number;
     for (int i = 0; i < m_userInput; i++)
     {
@@ -35,7 +50,8 @@ void Cards::numbersOnTheCards(const int number)
         {
             if (number >= 2 * m_userInput * m_userInput && number <= 4 * m_userInput * m_userInput)
             {
-                size[i][j] = rand() % number + 1;
+                size[i][j] = possible[count];
+                count++;
             }
         }
     }

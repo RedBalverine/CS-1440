@@ -8,7 +8,6 @@
 Deck::Deck(int cardSize, int cardCount, int numberMax)
 {
     // TODO: Implement
-    srand(time(NULL));
     if (cardCount > 3 && cardCount < 10000)
     {
         myDeck = new Cards*[cardCount];

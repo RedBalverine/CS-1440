@@ -13,6 +13,10 @@ iostream
 -
 chrono
 -
+vector
+-
+algorithm
+-
 ostream
 -
 iomanip
