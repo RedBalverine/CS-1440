@@ -20,7 +20,7 @@ void GeneralTester::testCards()
 
     if(card.getMaxNumber() != 65)
     {
-        std::cout << "Failure in constructor: unexpected value for getMaxNumber of "
+        std::cout << "Failure in constructor: unexpected value for getMaxNumber of "c
                   << card.getMaxNumber() << std::endl;
     }
 
