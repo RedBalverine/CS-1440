@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Kimba/OneDrive/Documents/GitHub/CS-1440/GenericDictionary/Dictionary.h
+vector
+-
+string
+-
+KeyValue.h
+C:/Users/Kimba/OneDrive/Documents/GitHub/CS-1440/GenericDictionary/KeyValue.h
+
+C:/Users/Kimba/OneDrive/Documents/GitHub/CS-1440/GenericDictionary/KeyValue.h
+
+C:/Users/Kimba/OneDrive/Documents/GitHub/CS-1440/GenericDictionary/Testing/DictionTester.cpp
+iostream
+-
+string
+-
+DictionTester.h
+C:/Users/Kimba/OneDrive/Documents/GitHub/CS-1440/GenericDictionary/Testing/DictionTester.h
+../Dictionary.h
+C:/Users/Kimba/OneDrive/Documents/GitHub/CS-1440/GenericDictionary/Dictionary.h
+
+C:/Users/Kimba/OneDrive/Documents/GitHub/CS-1440/GenericDictionary/Testing/DictionTester.h
+
+C:/Users/Kimba/OneDrive/Documents/GitHub/CS-1440/GenericDictionary/Testing/testMain.cpp
+DictionTester.h
+C:/Users/Kimba/OneDrive/Documents/GitHub/CS-1440/GenericDictionary/Testing/DictionTester.h
+

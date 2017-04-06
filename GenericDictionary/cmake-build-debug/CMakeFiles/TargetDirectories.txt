@@ -1,0 +1,4 @@
+C:/Users/Kimba/OneDrive/Documents/GitHub/CS-1440/GenericDictionary/cmake-build-debug/CMakeFiles/GenericDictionary.dir
+C:/Users/Kimba/OneDrive/Documents/GitHub/CS-1440/GenericDictionary/cmake-build-debug/CMakeFiles/DictionTester.dir
+C:/Users/Kimba/OneDrive/Documents/GitHub/CS-1440/GenericDictionary/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Kimba/OneDrive/Documents/GitHub/CS-1440/GenericDictionary/cmake-build-debug/CMakeFiles/rebuild_cache.dir
