@@ -49,6 +49,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/GenericDictionary.dir/DependInfo.cmake"
-  "CMakeFiles/DictionTester.dir/DependInfo.cmake"
+  "CMakeFiles/ITAK.dir/DependInfo.cmake"
   )
